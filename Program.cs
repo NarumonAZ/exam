@@ -25,6 +25,7 @@ namespace midexam009 {
                     } else if (x1 == 5 && y1 == 6 && h1 == 3.5 && w1 == 1 && x2 == 2 && y2 == 2.5 && h2 == 1 && w2 <= 2) {  
                         Console.WriteLine("No Overlapping");
                     }
+                Console.WriteLine("start again");
                 }
             }
         }
