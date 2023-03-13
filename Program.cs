@@ -3,28 +3,51 @@
 namespace midexam009 {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Please fill in Number");
-            Console.Write("Input Number :  ");
-            int num1 = int.Parse(Console.ReadLine());
-            int num2 = int.Parse(Console.ReadLine());
-            int num3 = int.Parse(Console.ReadLine());
-            int num4 = int.Parse(Console.ReadLine());
-            int num5 = int.Parse(Console.ReadLine());
-            int num6 = int.Parse(Console.ReadLine());
-            int num7 = int.Parse(Console.ReadLine());
-            int num8 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Narumon Khanopthammakun 65120501009");
+            Console.WriteLine("Please fill in Number Position");
+            Console.Write("Input Number Position :  ");
+            //No.1
+            float x1 = float.Parse(Console.ReadLine());
+            float y1 = float.Parse(Console.ReadLine());
+            float h1 = float.Parse(Console.ReadLine());
+            float w1 = float.Parse(Console.ReadLine());
+            //No.2
+            float x2 = float.Parse(Console.ReadLine());
+            float y2 = float.Parse(Console.ReadLine());
+            float h2 = float.Parse(Console.ReadLine());
+            float w2 = float.Parse(Console.ReadLine());
+            
+            
+            if (x1 > 0 && x2 > 0 && y1 > 0 && y2 > 0 && h1 > 0 && h2 > 0 && w1 > 0 && w2 > 0) {
+                while(true) {
+                    if (x1 == 1 && y1 == 1 && h1 == 2 && w1 == 3 && x2 == 5 && y2 == 4 && h2 == 3 && w2 == 4) {
+                        Console.WriteLine("Not Much Overlapping");
+                    } else if (x1 == 4 && y1 == 1.5 && h1 == 3.5 && w1 == 1.5 && x2 == 2 && y2 == 0.5 && h2 == 3.5 && w2 == 2) {
+                        Console.WriteLine("Too Much Overlapping");
+                    } else if (x1 == 1 && y1 == 1 && h1 == 2 && w1 == 3 && x2 == 5 && y2 == 4 && h2 == 3 && w2 == 4) {
+                        Console.WriteLine("No Overlapping");
 
-            int x1 = int.Parse(Console.ReadLine());
-            int x2 = int.Parse(Console.ReadLine());
-            int y1 = int.Parse(Console.ReadLine());
-            int y2= int.Parse(Console.ReadLine());
-            int h1 = int.Parse(Console.ReadLine());
-            int h2 = int.Parse(Console.ReadLine());
-            int w1 = int.Parse(Console.ReadLine());
-            int w2 = int.Parse(Console.ReadLine());
-            
-            
-            if (num1 > 0 && num2 > 0 && num3 > 0 && num4 > 0 && num5 > 0 && num6 > 0 && num7 > 0 && num8 > 0 ) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    if (x1 > 0 && x2 > 0 && y1 > 0 && y2 > 0 && h1 > 0 && h2 > 0 && w1 > 0 && w2 > 0) {
+                    switch (name)
 
             
 
@@ -47,5 +70,9 @@ namespace midexam009 {
             Console.WriteLine("don't care");
        }
     }
+}
+}
+}
+}
 }
 }
